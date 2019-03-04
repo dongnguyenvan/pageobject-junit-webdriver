@@ -62,8 +62,14 @@ public class TestNG {
 	  driver.quit();
   }
 //
-}
 
+
+public void afterMethod1() {
+	// Close the driver dong
+
+	  driver.quit();
+ }
+}
 //DONG
 //test
 // thay doi theem4 line code
